@@ -1,1 +1,1 @@
-{"applinks":{"details":[{"appIDs":["H78MX4XXX4.com.kmjohn.fractalexplorer"],"components":[{"/":"/fractal-web/*"}]}]}}
+{"applinks":{"details":[{"appIDs":["H78MX4XXX4.com.kmjohn.fractalexplorer"],"components":[{"/":"/fractal-web/support.html","exclude":true},{"/":"/fractal-web/privacy.html","exclude":true},{"/":"/fractal-web/*"}]}]}}
