@@ -24,11 +24,26 @@
   h3 { font-size: 1rem; margin: 1.5rem 0 0.25rem; }
   h3 + p { margin-top: 0; }
   a { color: inherit; }
+  a.contact-btn {
+    display: inline-block;
+    margin: 0.5rem 0 0.25rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.6rem;
+    background: #1a1a1a;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  @media (prefers-color-scheme: dark) {
+    a.contact-btn { background: #e8e8e8; color: #111; }
+  }
 </style>
 </head>
 <body>
 <h1>Support</h1>
 <p class="updated">HexaTuner&trade;</p>
+
+<p><a class="contact-btn" href="mailto:kmjohn@gmail.com?subject=HexaTuner%20support">Contact support</a></p>
 
 <p>HexaTuner tunes all six strings of your guitar from a single strum: each string gets its own reading at the same time. You can also tune one string at a time, or play any note in Chromatic mode.</p>
 
